@@ -1,10 +1,12 @@
 import telebot
+import os
 import requests
 import time
+import os
+TOKEN = os.environ.get("8907709500:AAGucJQj2wmCECeqadO5-HRk8N9c4W1GAfo")
+WEATHER_KEY = os.environ.get("92a87062034410072bbc50805706f2c2")
+GIPHY_KEY = os.environ.get("XCZUVYIhpSfOZLs2zSVFYiu1LopTFs5q")
 
-TOKEN = "8907709500:AAGucJQj2wmCECeqadO5-HRk8N9c4W1GAfo"
-WEATHER_KEY = "92a87062034410072bbc50805706f2c2"
-GIPHY_KEY = "XCZUVYIhpSfOZLs2zSVFYiu1LopTFs5q"
 
 bot = telebot.TeleBot(TOKEN)
 
